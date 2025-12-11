@@ -131,8 +131,8 @@ app.use('/api/puja-booking', pujaRoute )
 // Adimin login
 
 const ADMIN_USER = {
-  username: 'info.maapitamera@gmail.com',
-  password: 'info.maapitamera'
+  username: 'info.maapitambara@gmail.com',
+  password: 'info.maapitambara'
 };
 
 // POST /api/admin/login
@@ -176,4 +176,5 @@ app.delete("/api/images/:id", async (req, res) => {
 app.listen(process.env.PORT, () =>
   console.log(`🚀 Server running on http://localhost:${process.env.PORT}`)
 );
+
 
